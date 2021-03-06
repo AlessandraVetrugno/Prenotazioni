@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ae3e5b-396a-473f-94ab-662b9e9dabb2" name="Default Changelist" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
+    <list default="true" id="d4ae3e5b-396a-473f-94ab-662b9e9dabb2" name="Default Changelist" comment="Add a configuration line">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615021567131</updated>
-      <workItem from="1615021569173" duration="3451000" />
+      <workItem from="1615021569173" duration="4510000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1615024146723</created>
@@ -45,14 +45,54 @@
       <option name="project" value="LOCAL" />
       <updated>1615024146723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1615025554782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025554782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1615025644308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025644308</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add a configuration line">
+      <created>1615025738675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025738675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add a configuration line">
+      <created>1615025825980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025825980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Add a configuration line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a configuration line" />
   </component>
 </project>
