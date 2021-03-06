@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7939a1e-01a5-493d-bf9a-ed4434273783" name="xampp_server" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\prenotazioni" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
