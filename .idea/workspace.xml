@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ae3e5b-396a-473f-94ab-662b9e9dabb2" name="Default Changelist" comment="Add configuration about errors">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="d4ae3e5b-396a-473f-94ab-662b9e9dabb2" name="Default Changelist" comment="Add webserver configuration file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,51 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/prenotazioni/prenota.php" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="codice=LRNTZA03P30D612O99&amp;giorno=2021-01-01" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/prenotazioni/prenota.php" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="codice=LRNTZA03P30D612O99&amp;giorno=2021-01-01" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.rest-api#1">
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="prenota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/prenota.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -46,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api#1" />
         <item itemvalue="PHP Script.prenota.php" />
       </list>
     </recent_temporary>
@@ -58,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615021567131</updated>
-      <workItem from="1615021569173" duration="7662000" />
+      <workItem from="1615021569173" duration="9343000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1615024146723</created>
@@ -102,7 +145,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615027767527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add PHPStorm configuration files about SQL data source and dialect">
+      <created>1615030184944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615030184944</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add SQL insertion example">
+      <created>1615030247433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615030247433</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add POST variables">
+      <created>1615031560308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615031560308</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add webserver configuration file">
+      <created>1615031589851</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615031589851</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +194,11 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Add a configuration line" />
     <MESSAGE value="Add configuration about errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add configuration about errors" />
+    <MESSAGE value="Add PHPStorm configuration files about SQL data source and dialect" />
+    <MESSAGE value="Add SQL insertion example" />
+    <MESSAGE value="Add POST variables" />
+    <MESSAGE value="Add webserver configuration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add webserver configuration file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
