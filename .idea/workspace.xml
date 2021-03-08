@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ae3e5b-396a-473f-94ab-662b9e9dabb2" name="Default Changelist" comment="Add webserver configuration file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615021567131</updated>
       <workItem from="1615021569173" duration="9343000" />
+      <workItem from="1615188809221" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1615024146723</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615031589851</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add">
+      <created>1615188828726</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615188828726</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +197,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
@@ -198,7 +207,8 @@
     <MESSAGE value="Add SQL insertion example" />
     <MESSAGE value="Add POST variables" />
     <MESSAGE value="Add webserver configuration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webserver configuration file" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
