@@ -1,3 +1,4 @@
+
 <?php
 
 //Dice a livello dello script che gli errori verranno mostrati
