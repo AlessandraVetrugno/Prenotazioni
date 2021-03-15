@@ -29,7 +29,7 @@ CREATE TABLE `prenotazioni` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
+ALTER TABLE prenotazioni ADD codice_prenotazione varchar(32);
 
 
 -- Dump completed on 2021-03-13 11:21:47
