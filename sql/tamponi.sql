@@ -26,10 +26,10 @@ CREATE TABLE `prenotazioni` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `codice_fiscale` varchar(16) NOT NULL,
   `giorno` date NOT NULL,
+  `codice_prenotazione` varchar(32) DEFAULT NULL,
+  `note` text DEFAULT NULL,
+  `eseguito` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
-ALTER TABLE prenotazioni ADD codice_prenotazione varchar(32);
 
-
--- Dump completed on 2021-03-13 11:21:47
