@@ -9,7 +9,11 @@ Durante l'epidemia di COVID, una delle esigenze è stata quella di gestire la pr
 #### Funzionalità inserite:
 
 - Inserire una ***prenotazione*** con codice fiscale e data.
-
+- Creazione di un ***codice univoco*** per ogni prenotazione.
+- ***Lista*** delle prenotazioni effettuate.
+- ***Lista*** delle prenotazioni giornaliere.
+- ***Controllo del numero massimo*** di persone che possono effettuare un tampone in ogni giorno.
+- Possibilità di ***registrazione di ogni tampone eseguito***.
 
 ### Funzionalità da inserire:
 
