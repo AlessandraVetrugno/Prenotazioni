@@ -36,10 +36,14 @@ if ($riga == false)
 else {
     $pass_hash = $riga['password'];
     //la password è corretta
+
     if (password_verify($password, $pass_hash)) {
+
+        $_SESSION['username'] = $username;
         echo $templates->render('utente_autenticato', ['username' => $username]);
     }
     //la password è sbagliata
+
     else {
         echo $templates->render('login_fallito', ['username' => $username]);
     }
